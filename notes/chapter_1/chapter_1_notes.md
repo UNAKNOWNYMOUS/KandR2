@@ -15,5 +15,5 @@ tags: []
 - A function is called by naming it, followed by a parenthesized list of arguments, so this calls the function `printf` with the argument `"hello, world\n"`.
 - A sequence of characters in double quotes, like `"hello, world\n"`, is called a *character string* or *string constant*.
 - Characters like `\n` are known as *escape sequence*.
-- [ ] Exercise 1-1. Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what error messages you get.
-- [ ] Exercise 1-2. Experiment to find out what happens when `printf`'s argument string contains `\c`, where `c` is some character not listed above.
+- [x] Exercise 1-1. Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what error messages you get.
+- [x] Exercise 1-2. Experiment to find out what happens when `printf`'s argument string contains `\c`, where `c` is some character not listed above.
