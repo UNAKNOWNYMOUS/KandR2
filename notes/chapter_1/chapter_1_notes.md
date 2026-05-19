@@ -29,3 +29,11 @@ tags: []
 - `printf` is a general-purpose output formatting function.
 - [x] Exercise 1-3. Modify the temperature conversion program to print a heading above the table.
 - [x] Exercise 1.4. Write a program to print the corresponding Celsius to Fahrenheit table.
+## 1.3 The For Statement
+- General rule - in any context where it is permissible to use the value of a variable of some type, you can use a more complicated expression of that type.
+- For loop has 3 parts:
+  - First part: the initialization is done once before the loop proper is entered.
+  - Second part: test or condition that controls the loop.
+  - Third part: the increment step is executed, and the condition is re-evaluated.
+- The initialization, condition, and increment can be any expressions.
+- [ ] Exercise 1-5. Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.
