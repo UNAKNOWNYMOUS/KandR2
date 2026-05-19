@@ -46,3 +46,12 @@ tags: []
 - The *name* has the same form as a variable name: a sequence of letters and digits that begins with a letter. The *replacement text* can be any sequence of characters; it is not limited to numbers.
 - Symbolic constant names are conventionally written in upper case so they can be readily distinguished from lower case variable names.
 - Notice that there is no semicolon at the end of a `#define` line.
+## 1.5 Character Input and Output
+- The model of input and output supported by the standard library is very simple. Text input or output, regardless of where it originates of where it goes to, is dealt with as streams of characters.
+- A *text stream* is a sequence of characters divided into lines; each line consists of zero or more characters followed by a newline character.
+  - It is the responsibility of the library to make each input or output stream conform to this model.
+### 1.5.1 File Copying
+- What appears to be a character on the keyboard or screen is of course, like everything else, stored internally as a bit pattern.
+- In C, any assignment, is an expression and has a value, which is the value of the left hand side after the assignment.
+- [ ] Exercise 1-6. Verify that the expression `getchar() != EOF` is 0 or 1.
+- [ ] Exercise 1-7. Write a program to print the value of `EOF`.
