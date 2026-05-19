@@ -53,5 +53,5 @@ tags: []
 ### 1.5.1 File Copying
 - What appears to be a character on the keyboard or screen is of course, like everything else, stored internally as a bit pattern.
 - In C, any assignment, is an expression and has a value, which is the value of the left hand side after the assignment.
-- [ ] Exercise 1-6. Verify that the expression `getchar() != EOF` is 0 or 1.
-- [ ] Exercise 1-7. Write a program to print the value of `EOF`.
+- [x] Exercise 1-6. Verify that the expression `getchar() != EOF` is 0 or 1.
+- [x] Exercise 1-7. Write a program to print the value of `EOF`.
