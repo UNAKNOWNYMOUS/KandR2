@@ -27,5 +27,5 @@ tags: []
 - C compilers do not care about how a program looks, proper indentation and spacing are critical in making programs easy for people to read.
 - In C, integer division *truncates*: any fractional part is discarded.
 - `printf` is a general-purpose output formatting function.
-- [ ] Exercise 1-3. Modify the temperature conversion program to print a heading above the table.
-- [ ] Exercise 1.4. Write a program to print the corresponding Celsius to Fahrenheit table.
+- [x] Exercise 1-3. Modify the temperature conversion program to print a heading above the table.
+- [x] Exercise 1.4. Write a program to print the corresponding Celsius to Fahrenheit table.
