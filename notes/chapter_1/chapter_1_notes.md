@@ -36,4 +36,4 @@ tags: []
   - Second part: test or condition that controls the loop.
   - Third part: the increment step is executed, and the condition is re-evaluated.
 - The initialization, condition, and increment can be any expressions.
-- [ ] Exercise 1-5. Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.
+- [x] Exercise 1-5. Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.
