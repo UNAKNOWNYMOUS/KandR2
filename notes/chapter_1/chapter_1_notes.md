@@ -17,3 +17,15 @@ tags: []
 - Characters like `\n` are known as *escape sequence*.
 - [x] Exercise 1-1. Run the "hello, world" program on your system. Experiment with leaving out parts of the program, to see what error messages you get.
 - [x] Exercise 1-2. Experiment to find out what happens when `printf`'s argument string contains `\c`, where `c` is some character not listed above.
+## 1.2 Variables and Arithmetic Expressions
+- Any characters between `/*` and `*/` are ignored by the compiler; they may be used freely to make a program easier to understand.
+  - Comments may appear anywhere a blank or tab or newlines can.
+- In C, all variables must be declared before they are used, usually at the beginning of the function before any executable statements.
+- A *declaration* announces the properties of variables; it consists of a type name and a list of variables.
+- *Assignment statements* set the variables to their initial values.
+- Individual statements are terminated by semicolons.
+- C compilers do not care about how a program looks, proper indentation and spacing are critical in making programs easy for people to read.
+- In C, integer division *truncates*: any fractional part is discarded.
+- `printf` is a general-purpose output formatting function.
+- [ ] Exercise 1-3. Modify the temperature conversion program to print a heading above the table.
+- [ ] Exercise 1.4. Write a program to print the corresponding Celsius to Fahrenheit table.
