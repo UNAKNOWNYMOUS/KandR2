@@ -37,3 +37,12 @@ tags: []
   - Third part: the increment step is executed, and the condition is re-evaluated.
 - The initialization, condition, and increment can be any expressions.
 - [x] Exercise 1-5. Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.
+## 1.4 Symbolic Constants
+- A `#define` line defines a *symbolic name* or *symbolic constant* to be a particular string of characters:
+```c
+// #define name replacement text
+```
+- Thereafter, any occurrence of *name* (not in quotes and not part of another name) will be replaced by the corresponding *replacement text*.
+- The *name* has the same form as a variable name: a sequence of letters and digits that begins with a letter. The *replacement text* can be any sequence of characters; it is not limited to numbers.
+- Symbolic constant names are conventionally written in upper case so they can be readily distinguished from lower case variable names.
+- Notice that there is no semicolon at the end of a `#define` line.
